@@ -8,7 +8,7 @@ export function SuperHeroesPage() {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:4000/superheroes`)
+      .get(`http://localhost:4000/superheroes1`)
       .then((res) => {
         SetData(res.data);
         setIsLoading(false);
