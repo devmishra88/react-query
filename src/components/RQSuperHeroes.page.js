@@ -11,8 +11,8 @@ export function RQSuperHeroesPage() {
     `super-heroes`,
     fetchSuperHeroes,
     {
-      cacheTime: 5000,
-      staleTime: 30000,
+      refetchInterval:2000,
+      refetchIntervalInBackground:true
     }
   );
 
