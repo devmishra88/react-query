@@ -9,8 +9,10 @@ const fetchSuperHeroes = () => {
 export function RQSuperHeroesPage() {
   const { isLoading, data, isError, error } = useQuery(
     `super-heroes`,
-    fetchSuperHeroes,{
-      cacheTime:5000,
+    fetchSuperHeroes,
+    {
+      cacheTime: 5000,
+      staleTime: 30000,
     }
   );
 
