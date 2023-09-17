@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { useSuperHeroesData } from "../hooks/useSuperHeroesData";
 
 export function RQSuperHeroesPage() {
@@ -25,12 +26,16 @@ export function RQSuperHeroesPage() {
     <>
       <button onClick={refetch}>Fetch Heroes</button>
       <h2>RQ Super Hero Page</h2>
-      {/* {data?.data.map((hero) => {
-        return <div key={hero.name}>{hero.name}</div>;
-      })} */}
-      {data.map((heroNames) => {
-        return <div key={heroNames}>{heroNames}</div>;
+      {data?.data.map((hero) => {
+        return (
+          <div key={hero.id}>
+            <Link to={`/rq-super-heroes/${hero.id}`}>{hero.name}</Link>
+          </div>
+        );
       })}
+      {/* {data.map((heroNames) => {
+        return <div key={heroNames}>{heroNames}</div>;
+      })} */}
     </>
   );
 }
