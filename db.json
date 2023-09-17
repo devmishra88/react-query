@@ -32,14 +32,14 @@
   ],
   "users": [
     {
-      "id": "vishwas@example.com",
-      "channelId": "codevolution"
+      "id": "deveshmishra@live.in",
+      "channelId": "deveshpatshala"
     }
   ],
   "channels": [
     {
-      "id": "codevolution",
-      "courses": ["react", "vue", "angular"]
+      "id": "deveshpatshala",
+      "courses": ["react", "react native", "php"]
     }
   ],
   "colors": [
