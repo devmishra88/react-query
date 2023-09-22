@@ -14,6 +14,26 @@
       "id": 3,
       "name": "Wonder Woman",
       "alterEgo": "Princess Diana"
+    },
+    {
+      "name": "Devesh",
+      "alterEgo": "Tester",
+      "id": 4
+    },
+    {
+      "name": "Praveen",
+      "alterEgo": "Actor",
+      "id": 5
+    },
+    {
+      "name": "Raj",
+      "alterEgo": "Nagraj",
+      "id": 6
+    },
+    {
+      "name": "Gangadhar",
+      "alterEgo": "Shaktimaan",
+      "id": 7
     }
   ],
   "friends": [
@@ -39,7 +59,11 @@
   "channels": [
     {
       "id": "deveshpatshala",
-      "courses": ["react", "react native", "php"]
+      "courses": [
+        "react",
+        "react native",
+        "php"
+      ]
     }
   ],
   "colors": [
