@@ -34,6 +34,21 @@
       "name": "Gangadhar",
       "alterEgo": "Shaktimaan",
       "id": 7
+    },
+    {
+      "name": "Doga",
+      "alterEgo": "Suraj",
+      "id": 8
+    },
+    {
+      "name": "SC Dhrug",
+      "alterEgo": "Dhruv",
+      "id": 9
+    },
+    {
+      "name": "Bhokal",
+      "alterEgo": "Bhokal",
+      "id": 10
     }
   ],
   "friends": [
